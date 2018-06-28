@@ -53,3 +53,11 @@ O tempo real de execução deverá ser na proporção: a cada 1,5 segundos simul
 * Os processos só executam se todas as suas páginas estiverem na RAM.
 * Deve-se criar o gráfico de Gantt para mostrar as execuções dos processos, visualização da CPU e da RAM. 
 * Deve-se criar o gráfico de uso da RAM e do Disco, mostrando as página presentes em tempo-real. A resposta deve ser dada em função do turnaround médio (tempo de espera + tempo de execução). Colocar delay para verificar a execução.
+
+### 6) Representação gráfica
+
+* Processos
+* Gráfico de Gant
+* Memória RAM
+* Disco Rígido (HD)
+* Tabeça de páginas
