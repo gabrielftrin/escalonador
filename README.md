@@ -60,4 +60,4 @@ O tempo real de execução deverá ser na proporção: a cada 1,5 segundos simul
 * Gráfico de Gant
 * Memória RAM
 * Disco Rígido (HD)
-* Tabeça de páginas
+* Tabela de páginas
