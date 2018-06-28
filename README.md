@@ -24,18 +24,18 @@ O tempo real de execução deverá ser na proporção: a cada 1,5 segundos simul
 
 ### 3) Algoritmos a serem implementados para a execução dos processos:
 
-##### FIFO 
+#### FIFO 
   O primeiro a chegar é o primeiro a da fila de execução. (Não olha deadline nem prioridade).
   Se mais de 1 processo chegar ao mesmo tempo executa em qualquer ordem.
   Não utiliza Quantum nem sobrecarga
-##### SJF
+#### SJF
   O processo que tiver a menor quantidade de tempo de execução restante num dado instante de tempo será o próximo a ser executado. (Não olha deadline nem prioridade).
   Não utiliza Quantum nem sobrecarga.
-##### Round Robin
+#### Round Robin
   Organiza e fila de execução de forma circular. 
   Utiliza o Quantum e a sobrecarga
   Não olha o deadline.
-##### EDF
+#### EDF
   Mostrar execução, sobrecarga, eventual estouro do deadline, deadline graficamente.
  
 ### 4) Algoritmo de substituição de páginas de memória
