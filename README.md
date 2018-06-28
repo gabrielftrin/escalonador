@@ -1,11 +1,11 @@
 #  escalonador
 ## Escalonador de Processos
 
-1. Descrição
+### 1. Descrição
 
 Este programa é um escalonador de processos.
 
-2. Processos
+### 2. Processos
 
 Devem ser escalonador de 1 a 5 processos por vez a cada execução.
 Ou seja, uma execução só é válida se possuir a quantidade de processos deste intervalo.
@@ -22,28 +22,28 @@ Para cada execução deve ser obrigatoriamente informado manualmente:
 A unidade de tempo utilizada será em segundos*.
 O tempo real de execução deverá ser na proporção: a cada 1,5 segundos simulados, será 1 segundo real.
 
-3) Algoritmos a serem implementados para a execução dos processos:
+### 3) Algoritmos a serem implementados para a execução dos processos:
 
-  FIFO
+##### FIFO 
   O primeiro a chegar é o primeiro a da fila de execução. (Não olha deadline nem prioridade).
   Se mais de 1 processo chegar ao mesmo tempo executa em qualquer ordem.
   Não utiliza Quantum nem sobrecarga
-  SJF
+##### SJF
   O processo que tiver a menor quantidade de tempo de execução restante num dado instante de tempo será o próximo a ser executado. (Não olha deadline nem prioridade).
   Não utiliza Quantum nem sobrecarga.
-  Round Robin
+##### Round Robin
   Organiza e fila de execução de forma circular. 
   Utiliza o Quantum e a sobrecarga
   Não olha o deadline.
-  EDF
-  Mostrar execução, sobrecarga, eventual estouro do deadline, deadline graficamente
+##### EDF
+  Mostrar execução, sobrecarga, eventual estouro do deadline, deadline graficamente.
  
-4) Algoritmo de substituição de páginas de memória
+### 4) Algoritmo de substituição de páginas de memória
 
 * FIFO
 * Menos Recentemente Utilizado
 
-5) Mais alguns requisitos:
+### 5) Mais alguns requisitos:
 
 * Cada  processo  deve ter por padrão 10 páginas. 
 * Cada  página  tem  4K  de  tamanho.  
