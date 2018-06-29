@@ -16,11 +16,12 @@ Para cada processo deve ser obrigatoriamente informado pelo usuário:
 * Deadline (de 0 a 99)
 
 Para cada execução deve ser obrigatoriamente informado pelo usuario:
-  Quantum do sistema (de 1 a 5)
-  Sobrecarga do sistema (de 1 a 5)
+* Quantum do sistema (de 1 a 5)
+* Sobrecarga do sistema (de 1 a 5)
 
 A unidade de tempo utilizada será em segundos*.
- *.O tempo real de execução deverá ser na proporção: a cada 1,5 segundos simulados, será 1 segundo real.
+
+*.O tempo real de execução deverá ser na proporção: a cada 1,5 segundos simulados, será 1 segundo real.
 
 ### 3) Algoritmos a serem implementados para a execução dos processos:
 
