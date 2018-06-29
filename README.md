@@ -7,20 +7,20 @@ Este programa é um escalonador de processos.
 
 ### 2. Processos
 
-Devem ser escalonador de 1 a 5 processos por vez a cada execução.
-Ou seja, uma execução só é válida se possuir a quantidade de processos deste intervalo.
+Devem ser escalonados de 1 a 5 processos por vez a cada execução.
+Ou seja, uma execução só é válida se possuir a quantidade de processos presente neste intervalo.
 
-Para cada processo deve ser obrigatoriamente informado manualmente:
-* Tempo de chegada
-* Tempo de execução
-* Deadline
+Para cada processo deve ser obrigatoriamente informado pelo usuário:
+* Tempo de chegada (de 0 a 30)
+* Tempo de execução (de 0 a 50)
+* Deadline (de 0 a 99)
 
-Para cada execução deve ser obrigatoriamente informado manualmente:
-  Quantum do sistema (a partir de 1)
-  Sobrecarga do sistema (a partir de 1)
+Para cada execução deve ser obrigatoriamente informado pelo usuario:
+  Quantum do sistema (de 1 a 5)
+  Sobrecarga do sistema (de 1 a 5)
 
 A unidade de tempo utilizada será em segundos*.
-O tempo real de execução deverá ser na proporção: a cada 1,5 segundos simulados, será 1 segundo real.
+ *.O tempo real de execução deverá ser na proporção: a cada 1,5 segundos simulados, será 1 segundo real.
 
 ### 3) Algoritmos a serem implementados para a execução dos processos:
 
@@ -36,6 +36,7 @@ O tempo real de execução deverá ser na proporção: a cada 1,5 segundos simul
   Utiliza o Quantum e a sobrecarga
   Não olha o deadline.
 #### EDF
+  O processo que tiver o menor deadline num dado instanste de tempo será o próximo a ser executado.
   Mostrar execução, sobrecarga, eventual estouro do deadline, deadline graficamente.
  
 ### 4) Algoritmo de substituição de páginas de memória
